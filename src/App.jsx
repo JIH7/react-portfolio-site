@@ -12,11 +12,12 @@ import Page from './components/Page'
 
 function App() {
   const [currentApp, setCurrentApp] = useState(0)
+  const [menuOpen, setMenuOpen] = useState(false)
 
   return (
     <div className='w-screen h-screen | flex flex-row justify-start | bg-darkGray'>
-      <Hamburger />
-      <ScrollableMenu appList={AppList} onToggle={setCurrentApp}/>
+      <Hamburger menuOpen={menuOpen} handleClick={setMenuOpen}/>
+      <ScrollableMenu menuOpen={menuOpen} appList={AppList} onToggle={setCurrentApp}/>
       <Page app={AppList[currentApp]}/>
     </div>
   )

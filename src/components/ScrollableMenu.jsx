@@ -1,10 +1,10 @@
 import ListItem from "./ListItem"
 
-const ScrollableMenu = ({appList, onToggle}) => {
+const ScrollableMenu = ({appList, onToggle, menuOpen}) => {
     
 
     return (
-        <div className='h-full w-1/5 | overflow-y-scroll | hidden md:block'>
+        <div className={`bg-darkGray | fixed md:static | h-full md:w-1/3 lg:w-1/5 | overflow-y-scroll |${menuOpen ? ' left-0' : ' -left-64'} md:block | transition-all ease-in duration-150`}>
             {
                 appList.map((el, i) => (
                     //ToDo: If removing shortName remove this.
