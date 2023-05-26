@@ -28,7 +28,7 @@ const AppList = [
         'https://VideoGameBacklog.com/'
     ], "Game Backlog"),
 
-    new AppTile("Calculator", "It's a calculator. 2+7=6. Duh.", CalculatorImg, [
+    new AppTile("Calculator", "A calculator made with React and Tailwind.", CalculatorImg, [
         'https://helsel-react-calculator.netlify.app/'
     ])
 ]
