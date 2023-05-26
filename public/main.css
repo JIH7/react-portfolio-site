@@ -785,6 +785,10 @@ video {
   --tw-bg-opacity: 0.05;
 }
 
+.bg-opacity-10 {
+  --tw-bg-opacity: 0.1;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -867,6 +871,18 @@ video {
 
 .opacity-0 {
   opacity: 0;
+}
+
+.opacity-20 {
+  opacity: 0.2;
+}
+
+.opacity-10 {
+  opacity: 0.1;
+}
+
+.opacity-5 {
+  opacity: 0.05;
 }
 
 .transition-all {

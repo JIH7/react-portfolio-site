@@ -1,6 +1,6 @@
 import ListItem from "./ListItem"
 
-const ScrollableMenu = ({appList, onToggle, menuOpen}) => {
+const ScrollableMenu = ({appList, onToggle, menuOpen, currentApp}) => {
     
 
     return (
@@ -9,7 +9,7 @@ const ScrollableMenu = ({appList, onToggle, menuOpen}) => {
                 appList.map((el, i) => (
                     //ToDo: If removing shortName remove this.
                     //If the app has optional shortName paramater, use that to prevent overflow
-                    <ListItem appName={el.shortName ? el.shortName : el.name} onToggle={onToggle} idKey={i}/>
+                    <ListItem appName={el.shortName ? el.shortName : el.name} onToggle={onToggle} idKey={i} currentApp={currentApp}/>
                 ))
             }
         </div>
