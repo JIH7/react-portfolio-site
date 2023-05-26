@@ -14,10 +14,15 @@ function App() {
   const [currentApp, setCurrentApp] = useState(0)
   const [menuOpen, setMenuOpen] = useState(false)
 
+  const onToggle = (id) => {
+    setCurrentApp(id)
+    setMenuOpen(false)
+  }
+
   return (
-    <div className='w-screen h-screen | flex flex-row justify-start | bg-darkGray'>
+    <div className='w-screen md:h-screen | flex flex-row justify-start | bg-darkGray'>
       <Hamburger menuOpen={menuOpen} handleClick={setMenuOpen}/>
-      <ScrollableMenu menuOpen={menuOpen} currentApp={currentApp} appList={AppList} onToggle={setCurrentApp}/>
+      <ScrollableMenu menuOpen={menuOpen} currentApp={currentApp} appList={AppList} onToggle={onToggle}/>
       <Page app={AppList[currentApp]}/>
     </div>
   )
