@@ -596,6 +596,10 @@ video {
   height: 100%;
 }
 
+.h-3\/4 {
+  height: 75%;
+}
+
 .w-16 {
   width: 4rem;
 }
@@ -892,6 +896,10 @@ button:focus-visible {
 
   .md\:h-screen {
     height: 100vh;
+  }
+
+  .md\:h-1\/4 {
+    height: 25%;
   }
 
   .md\:w-1\/2 {
