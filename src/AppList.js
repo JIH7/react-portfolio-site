@@ -20,7 +20,7 @@ class AppTile{
 }
 
 const AppList = [
-    new AppTile("About me", "I'm Jeremy", HeadShotImg, [
+    new AppTile("About me", "I'm not Jeremy", HeadShotImg, [
         'https://jeremyhelsel.com/',
     ]),
 

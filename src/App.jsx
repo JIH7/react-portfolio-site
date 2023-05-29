@@ -20,7 +20,7 @@ function App() {
   }
 
   return (
-    <div className='w-screen md:h-screen | flex flex-row justify-start | bg-darkGray'>
+    <div className='w-screen h-full md:h-screen | flex flex-row justify-start | bg-darkGray'>
       <Hamburger menuOpen={menuOpen} handleClick={setMenuOpen}/>
       <ScrollableMenu menuOpen={menuOpen} currentApp={currentApp} appList={AppList} onToggle={onToggle}/>
       <Page app={AppList[currentApp]}/>
