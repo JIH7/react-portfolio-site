@@ -19,18 +19,26 @@ class AppTile{
     }
 }
 
+class LinkInfo{
+    constructor(linkAdress, linkName) {
+        this.linkAdress = linkAdress
+        this.linkName = linkName
+    }
+}
+
 const AppList = [
     new AppTile("About me", "I'm not Jeremy", HeadShotImg, [
-        'https://jeremyhelsel.com/',
+        new LinkInfo('https://jeremyhelsel.com', "My website"),
     ]),
 
     new AppTile("Game Backlog Tracker", "Filler Description", GameBacklogImg, [
-        'https://VideoGameBacklog.com/'
+        new LinkInfo('https://VideoGameBacklog.com/', 'Live website'),
+        new LinkInfo('https://github.com/JIH7/game-backlog-mvc', "Source Code"),
     ], "Game Backlog"),
 
     new AppTile("Calculator", "A calculator made with React and Tailwind.", CalculatorImg, [
-        'https://helsel-react-calculator.netlify.app/',
-        'https://github.com/JIH7/react-tailwind-calculator'
+        new LinkInfo('https://helsel-react-calculator.netlify.app/', 'Live website'),
+        new LinkInfo('https://github.com/JIH7/react-tailwind-calculator', 'Source Code')
     ])
 ]
 

@@ -1,6 +1,6 @@
 const LinkWidgetLI = ({key, text}) => {
   return (
-    <a href={text}><li key={key}>{text}</li></a>
+    <a href={text.linkAdress}><li key={key}>{text.linkName}</li></a>
   )
 }
 
