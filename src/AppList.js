@@ -28,8 +28,8 @@ class LinkInfo{
 }
 
 const AppList = [
-    new AppTile("About me", "I'm not Jeremy", HeadShotImg, [
-        new LinkInfo('https://jeremyhelsel.com', "My website"),
+    new AppTile("About me", "Insert bio here", HeadShotImg, [
+        new LinkInfo('https://github.com/JIH7/react-portfolio-site', "Source for this website"),
     ]),
 
     new AppTile("Game Backlog Tracker", "Filler Description", GameBacklogImg, [

@@ -11,7 +11,7 @@ const Page = ({app, screenWidth}) => {
 
       <main className="bg-white bg-opacity-5 | sm:pb-4 md:h-full w-full md:w-1/2 | mx-auto md:mx-2 | px-4 pt-2 | sm:rounded-md  md:rounded">
         <h1 className='text-2xl md:text-4xl'>{app.name}</h1>
-        <p>{app.description}<span>{screenWidth}</span></p>
+        <p>{app.description}</p>
       </main>
     </div>
   )
