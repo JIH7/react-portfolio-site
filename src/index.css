@@ -18,6 +18,11 @@
   -webkit-text-size-adjust: 100%;
 }
 
+svg{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 a {
   font-weight: 500;
   color: #646cff;

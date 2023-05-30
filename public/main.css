@@ -526,6 +526,10 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
@@ -542,6 +546,10 @@ video {
   left: 0px;
 }
 
+.right-0 {
+  right: 0px;
+}
+
 .right-8 {
   right: 2rem;
 }
@@ -556,6 +564,10 @@ video {
 
 .top-4 {
   top: 1rem;
+}
+
+.top-40 {
+  top: 10rem;
 }
 
 .mx-auto {
@@ -575,12 +587,20 @@ video {
   height: 0.25rem;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .h-16 {
   height: 4rem;
 }
 
 .h-20 {
   height: 5rem;
+}
+
+.h-96 {
+  height: 24rem;
 }
 
 .h-full {
@@ -593,6 +613,10 @@ video {
 
 .w-16 {
   width: 4rem;
+}
+
+.w-4 {
+  width: 1rem;
 }
 
 .w-full {
@@ -617,10 +641,6 @@ video {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
-}
-
-.resize {
-  resize: both;
 }
 
 .flex-row {
@@ -786,6 +806,11 @@ video {
   -webkit-text-size-adjust: 100%;
 }
 
+svg{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -859,6 +884,14 @@ button:focus-visible {
   --tw-bg-opacity: 0.05;
 }
 
+.group:hover .group-hover\:block {
+  display: block;
+}
+
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
 @media (min-width: 480px) {
   .sm\:mx-auto {
     margin-left: auto;
@@ -877,6 +910,10 @@ button:focus-visible {
 @media (min-width: 768px) {
   .md\:static {
     position: static;
+  }
+
+  .md\:top-64 {
+    top: 16rem;
   }
 
   .md\:mx-2 {
@@ -931,6 +968,10 @@ button:focus-visible {
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .md\:opacity-0 {
+    opacity: 0;
   }
 }
 
