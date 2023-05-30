@@ -1,6 +1,7 @@
 import HeadShotImg from './assets/headshot.jpg'
 import GameBacklogImg from './assets/GameBacklog.jpg'
 import CalculatorImg from './assets/Calculator.jpg'
+import LandingPage from './assets/ManageLanding.jpg'
 
 class AppTile{
     constructor(name, description, image, links,  shortName) {
@@ -39,7 +40,12 @@ const AppList = [
     new AppTile("Calculator", "A calculator made with React and Tailwind.", CalculatorImg, [
         new LinkInfo('https://helsel-react-calculator.netlify.app/', 'Live website'),
         new LinkInfo('https://github.com/JIH7/react-tailwind-calculator', 'Source Code')
-    ])
+    ]),
+
+    new AppTile("Sample Landing Page", "A sample landing page made with Tailwind.", LandingPage, [
+        new LinkInfo('https://helsel-basic-landing-page.netlify.app/', 'Live website'),
+        new LinkInfo('https://github.com/JIH7/managelandingpage', 'Source Code')
+    ], 'Landing Page')
 ]
 
 export default AppList

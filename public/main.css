@@ -625,6 +625,10 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.resize {
+  resize: both;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -941,6 +945,10 @@ button:focus-visible {
 
   .md\:h-auto {
     height: auto;
+  }
+
+  .md\:h-3\/4 {
+    height: 75%;
   }
 
   .md\:w-1\/2 {
