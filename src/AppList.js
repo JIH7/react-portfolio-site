@@ -42,15 +42,15 @@ const AppList = [
         new LinkInfo('https://morrilet.itch.io/dice-to-meet-you', 'Game website'),
     ]),
 
+    new AppTile("Sample Landing Page", "A sample landing page made with Tailwind. This was a Frontend Mentor challenge and my first forray into Tailwind.", LandingPage, [
+        new LinkInfo('https://helsel-basic-landing-page.netlify.app/', 'Live website'),
+        new LinkInfo('https://github.com/JIH7/managelandingpage', 'Source Code')
+    ], 'Landing Page'),
+
     new AppTile("Game Backlog Tracker", "DISCLAIMER: Most of this site is currently not functional, the unnoficial API for HowLongToBeat.com I was using is no longer functional. I am currently working to fix this.\n\nThis is my first full stack application with authentication. The user enters a list of video games stored to their unique account. Games can be marked as completed and stats from HowLongToBeat.com can be viewed. This app runs a NodeJS backend with the Express frameowrk. Passport is used for authentication and MongoDB with Mongoose is used for account and game lists.", GameBacklogImg, [
         new LinkInfo('https://VideoGameBacklog.com/', 'Live website'),
         new LinkInfo('https://github.com/JIH7/game-backlog-mvc', "Source Code"),
     ], "Game Backlog"),
-
-    new AppTile("Sample Landing Page", "A sample landing page made with Tailwind. This was a Frontend Mentor challenge and my first forray into Tailwind.", LandingPage, [
-        new LinkInfo('https://helsel-basic-landing-page.netlify.app/', 'Live website'),
-        new LinkInfo('https://github.com/JIH7/managelandingpage', 'Source Code')
-    ], 'Landing Page')
 ]
 
 export default AppList
