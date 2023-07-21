@@ -22,7 +22,7 @@ const Page = ({app}) => {
         <h1 className='text-2xl md:text-4xl | flex'>{app.name}
           <div onClick={toggleDescription} className={`h-8 w-8 | md:hidden | relative | transition-all duration-300 delay-75 | ${descriptionExpanded ? '-rotate-90' : 'rotate-90'}`}><FaPlay/></div>
         </h1>
-        <p className={`${descriptionExpanded ? '' : 'hidden'} md:block`}>{app.description}</p>
+        <p className={`${descriptionExpanded ? '' : 'hidden'} md:block || display-linebreak`}>{app.description}</p>
       </main>
     </div>
   )
