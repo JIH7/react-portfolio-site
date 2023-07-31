@@ -29,6 +29,12 @@ class LinkInfo{
 }
 
 const AppList = [
+
+    new AppTile("Game Backlog Tracker", "This is my first full stack application with authentication. The user enters a list of video games stored to their unique account. Games can be marked as completed and stats from HowLongToBeat.com can be viewed. This app runs a NodeJS backend with the Express frameowrk. Passport is used for authentication and MongoDB with Mongoose is used for account and game lists.", GameBacklogImg, [
+        new LinkInfo('https://VideoGameBacklog.com/', 'Live website'),
+        new LinkInfo('https://github.com/JIH7/game-backlog-mvc', "Source Code"),
+    ], "Game Backlog"),
+
     new AppTile("About me", "My name is Jeremy and I'm a Chicago based web developer with a focus on implementing front end designs and expirience building full stack web applications. I also dabble in game development, participating in the GMTK game jam every year with a few other developers.", HeadShotImg, [
         new LinkInfo('https://github.com/JIH7/react-portfolio-site', "Source for this website"),
     ]),
@@ -47,10 +53,7 @@ const AppList = [
         new LinkInfo('https://github.com/JIH7/managelandingpage', 'Source Code')
     ], 'Landing Page'),
 
-    new AppTile("Game Backlog Tracker", "DISCLAIMER: Most of this site is currently not functional, the unnoficial API for HowLongToBeat.com I was using is no longer functional. I am currently working to fix this.\n\nThis is my first full stack application with authentication. The user enters a list of video games stored to their unique account. Games can be marked as completed and stats from HowLongToBeat.com can be viewed. This app runs a NodeJS backend with the Express frameowrk. Passport is used for authentication and MongoDB with Mongoose is used for account and game lists.", GameBacklogImg, [
-        new LinkInfo('https://VideoGameBacklog.com/', 'Live website'),
-        new LinkInfo('https://github.com/JIH7/game-backlog-mvc', "Source Code"),
-    ], "Game Backlog"),
+    
 ]
 
 export default AppList
