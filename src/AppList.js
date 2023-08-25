@@ -1,6 +1,6 @@
 import HeadShotImg from './assets/headshot.jpg'
 import DiceToMeetYou from './assets/dicetomeetyou.jpg'
-import GameBacklogImg from './assets/GameBacklog.jpg'
+import GameBacklogImg from './assets/GameBackLog.jpg'
 import CalculatorImg from './assets/Calculator.jpg'
 import LandingPage from './assets/ManageLanding.jpg'
 import DictionaryImage from './assets/Dictionary.jpg'
